@@ -101,7 +101,7 @@ def predict():
 
 #Yer verisi yükleme
 def load_data_cities():
-    cities = pd.read_csv("../data/sehirler.csv")
+    cities = pd.read_csv("../data/yer.csv")
     return cities
 
 def city_index(cities,city):
